@@ -1,4 +1,4 @@
-import loadPostss from "../page";
+import loadPostss from "../page.jsx";
 
 const loadOnlyPost = async (id) => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
@@ -16,7 +16,7 @@ const Post = async ({ params }) => {
       </h3>
       <p>{post.body}</p>
       <hr />
-      <h4>Otras Publicaciones</h4>
+      <h4>Otras Publicaciones.</h4>
       <loadPostss />
      
     </div>

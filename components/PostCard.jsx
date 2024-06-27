@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
       >
         {" "}
         clic..
-      </button>
+      </button> 
     </div>
   );
 };

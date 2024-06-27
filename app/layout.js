@@ -1,5 +1,6 @@
 import Navbar from "../components/Nabvar";
 import { Ubuntu } from "next/font/google";
+import "./globals.css"
 
 export const metadata = {
   title: "First-app",
